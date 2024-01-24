@@ -13,20 +13,19 @@ header {
     text-align: center;
 }
 
-nav {
+.menu {
     background-color: #555;
-    padding: 10px;
-    text-align: center;
+    width: 25%;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+.contenedor {
+    display: flex;
 }
 
 main {
     padding: 20px;
+    width: 70%;
+    background-color: yellow;
 }
 
 .gallery, .places, .map {
@@ -35,8 +34,17 @@ main {
 
 .news {
     float: right;
-    width: 30%;
+    width: 25%;
     padding: 20px;
     background-color: #ddd;
-    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
