@@ -37,7 +37,7 @@ hr {
 
 .titulo1 {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .columna-menu {
@@ -74,4 +74,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    padding-top: 20px;
 }
