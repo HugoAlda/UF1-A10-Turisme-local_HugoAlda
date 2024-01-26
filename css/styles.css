@@ -25,6 +25,7 @@ body {
 
 .index {
     margin: 5px;
+    padding-left: 55px;
 }
 
 .menu {
@@ -66,12 +67,11 @@ main {
     background-color: yellow;
 }
 
-.places, .map {
-    margin-bottom: 30px;
-}
+.place
 
 .map {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .map h2 {
