@@ -200,3 +200,12 @@ ul > li > a:hover {
 .lugar {
     text-align: center;
 }
+
+@media (min-width: 768px) {
+    main {
+        width: 70%;
+    }
+    .news {
+        width: 25%;
+    }
+}
