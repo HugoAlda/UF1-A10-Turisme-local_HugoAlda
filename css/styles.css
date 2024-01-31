@@ -64,7 +64,7 @@ hr {
     padding-bottom: 50px;
 }
 
-.titulo-lugares-interes {
+.titulo2 {
     text-align: center;
 }
 
@@ -142,7 +142,6 @@ footer p {
 }
 
 article {
-    border-radius: 10px;
     padding: 20px;
     background-color: rgb(144, 138, 138);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
