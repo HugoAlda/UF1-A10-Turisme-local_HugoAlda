@@ -130,10 +130,6 @@ main {
     padding-bottom: 40px;
 }
 
-.place {
-    display: flex;
-}
-
 .columna1 {
     display: table-column;
     padding: 10px;
