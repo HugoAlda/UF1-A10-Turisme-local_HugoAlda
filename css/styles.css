@@ -100,15 +100,17 @@ main {
 .places, .map {
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: red;
+    background-color: rgba(255,52,179,255);
     padding-left: 40px;
     padding-bottom: 20px;
+    color: white;
 }
 
 .galeria {
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: red;
+    background-color: rgba(255,52,179,255);
+    color: white;
 }
 
 .contenedor-carrousel {
@@ -166,8 +168,9 @@ footer p {
 
 .article {
     padding: 20px;
-    background-color: #3828ce;
+    background-color: rgba(255,52,179,255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .texto-carrousel {
@@ -188,4 +191,12 @@ ul > li > a:hover {
     background-color: red;
     border-radius: 5px;
     color: white;
+}
+
+.imglugar {
+    width: 60%;
+}
+
+.lugar {
+    text-align: center;
 }
