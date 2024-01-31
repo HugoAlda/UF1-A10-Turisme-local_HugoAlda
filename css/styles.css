@@ -15,6 +15,7 @@ body {
     width: 100%;
     height: 710px;
     background-attachment: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header h1 {
@@ -40,6 +41,11 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Ajusta la altura del menú al 100% de la altura de la ventana */
+    overflow-y: auto; /* Agrega un desplazamiento vertical si el contenido es más largo que la altura de la ventana */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .menu h1 {
@@ -111,6 +117,7 @@ main {
     background-color: #ddd;
 }
 
+
 footer {
     background-color: #333; /* Color de fondo del footer */
     color: #fff; /* Color del texto en el footer */
@@ -138,8 +145,8 @@ aside > h2 {
 }
 
 article {
-    border: 3px solid black;
     border-radius: 10px;
     padding: 20px;
     background-color: rgb(144, 138, 138);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
