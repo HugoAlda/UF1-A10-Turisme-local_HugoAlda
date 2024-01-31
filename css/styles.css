@@ -98,8 +98,21 @@ main {
 }
 
 .galeria {
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: rgb(144, 138, 138);
+}
+
+.contenedor-carrousel {
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom: 35px;
+}
+
+.carousel {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .map {
