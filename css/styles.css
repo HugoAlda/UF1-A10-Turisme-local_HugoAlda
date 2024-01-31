@@ -88,7 +88,7 @@ main {
     float: right;
     width: 25%;
     padding: 20px;
-    background-color: rgb(185, 176, 176);
+    background-color: #555;
 }
 
 .places, .map {
